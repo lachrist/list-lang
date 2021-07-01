@@ -1,0 +1,28 @@
+{
+  "name": "list-lang",
+  "version": "0.0.0",
+  "keywords": [
+    "list",
+    "language",
+    "serialization",
+    "data"
+  ],
+  "scripts": {
+    "lint": "npx eslint lib/*.js",
+    "format": "npx prettier -w 'lib/*.js'",
+    "test": "npx c8 --check-coverage --branches 100 --functions 100 --include lib/main.js -- node lib/main.test.js"
+  },
+  "files": [
+    "/lib/main.js"
+  ],
+  "main": "/lib/main.js",
+  "devDependencies": {
+    "c8": "^7.7.3",
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lachrist/list-lang.git"
+  }
+}

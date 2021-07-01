@@ -1,0 +1,10 @@
+# Comment
+  # Indented Comment  
+* item
+* spaced item
+* \* marker-escaped item
+* endline-escaped item\n
+* - nested item1
+  - nested item2
+  - - deeply nested item1
+    - deeply nested item2
