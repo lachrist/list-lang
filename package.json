@@ -1,6 +1,6 @@
 {
   "name": "list-lang",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "list",
     "language",
@@ -8,7 +8,7 @@
     "data"
   ],
   "scripts": {
-    "lint": "npx eslint lib/*.js",
+    "lint": "npx eslint 'lib/*.js'",
     "format": "npx prettier -w 'lib/*.js'",
     "test": "npx c8 --check-coverage --branches 100 --functions 100 --include lib/main.js -- node lib/main.test.js"
   },
